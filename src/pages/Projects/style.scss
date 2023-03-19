@@ -1,0 +1,37 @@
+
+.project{
+
+    .project-name-cont{
+        text-align: center;
+        margin-bottom: 70px;
+        .name{
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 33px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+        }
+        .hr{
+            border: none;
+            border-radius: 2px;
+            margin: 0 auto;
+            width: 30px;
+            height: 5px;
+            background-color: #facf0f;
+        }
+        .text{
+            margin: 0 auto;
+            width: 62%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #555;
+            font-size: 20px;
+            margin-top: 20px;
+            @media screen and (max-width:320px) {
+                width: 80%;
+            }
+        }
+    }
+    .website-cont-img{
+        width: 100%;
+    }
+}

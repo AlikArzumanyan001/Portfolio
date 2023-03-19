@@ -1,0 +1,34 @@
+.footer{
+    padding: 40px 30px;
+    background-color: black;
+    .icons-social{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        .icon-linkedin{
+            color: #fff;
+            padding: 20px;
+            font-size: 22px;
+        }
+        .icon-github{
+            color: #fff;
+            padding: 20px;
+            font-size: 22px;
+        }
+        .icon-instagram{
+            color: #fff;
+            padding: 20px;
+            font-size: 22px;
+        }
+        .icon-facebook-square{
+            color: #fff;
+            padding: 20px;
+            font-size: 22px;
+        }
+    }
+    .info{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+}

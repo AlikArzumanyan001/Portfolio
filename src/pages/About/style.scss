@@ -1,0 +1,97 @@
+
+.about{
+    padding-bottom: 60px;
+    padding-top: 80px;
+    margin-bottom: 70px;
+    .about-name-cont{
+        text-align: center;
+        margin-bottom: 70px;
+        .name{
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 33px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+        }
+        .hr{
+            border: none;
+            border-radius: 2px;
+            margin: 0 auto;
+            width: 30px;
+            height: 5px;
+            background-color: #facf0f;
+        }
+        .text{
+            margin: 0 auto;
+            width: 62%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #555;
+            font-size: 20px;
+            margin-top: 20px;
+            @media screen and (max-width:320px) {
+                width: 80%;
+            }
+        }
+    }
+
+    .aftor-skills-cont{
+        display: flex;
+        justify-content: space-evenly;
+        .aftor-info{
+            width: 38%;
+            .h2{
+                margin-bottom: 30px;
+                font-weight: bold;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .p{
+                margin-bottom: 20px;
+                color: #666;
+                line-height: 1.7;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 17px;
+                .linkedin-link{
+                    font-weight: bolder;
+                    color: #facf0f;
+                }
+                
+            }
+            @media screen and (max-width:771px) {
+                width: 80%;
+                margin: 0 auto;
+                padding-bottom: 40px;
+            }
+        }
+        .aftor-skills{
+            width: 38%;
+            .h2{
+                margin-bottom: 30px;
+                font-weight: bold;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .skills{
+
+                .skills-div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .language{
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        font-weight: 600;
+                        background-color: rgba(153,153,153,.2);
+                        border-radius: 5px;
+                        margin: 10px;
+                        color: #666;
+                        padding: 8px 15px;
+                    }
+                }
+            }
+            @media screen and (max-width:771px) {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width:771px) {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.section-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    display: flex;
+    .socials{
+        display: flex;
+        flex-direction: column;
+        top: 45%;
+        width: 4%;
+        padding: 10px;
+        text-align: center;
+        background-color: #fff;
+        position: absolute;
+        .icon-linkedin{
+            color: #000;
+            font-size: 27px;
+        }
+        .icon-github{
+            color: #000;
+            font-size: 27px;
+        }
+        .icon-instagram{
+            color: #000;
+            font-size: 27px;
+        }
+        .icon-facebook-square{
+            color: #000;
+            font-size: 27px;
+        }
+        @media screen and (max-width:991px) {
+            display: none;
+        }
+    }
+    .home-hero{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 90rem;
+        width: 52%;
+
+        .aftor-name{
+            text-align: center;
+            letter-spacing: 3px;
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            @media screen and (max-width:320px) {
+                font-size: 25px;
+            }
+        }
+        .info{
+            letter-spacing: 3px;
+            font-weight: 100;
+            margin-top: 50px;
+            color: #333;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            @media screen and (max-width:320px) {
+                font-size: 18px;
+            }
+        }
+        .projects-btn{
+            margin-top: 60px;
+            text-align: center;
+
+            .proj-btn{
+                background-color: #facf0f;
+                color: #333;
+                text-decoration: none;
+                text-transform: uppercase;
+                box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+                font-weight: 550;
+                padding: 15px 80px;
+                border-radius: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 21px;
+                &:hover{
+                    transition: 0.5s;
+                    color: #facf0f;
+                    background-color: #000;
+                }
+                @media screen and (max-width:320px) {
+                    font-size: 18px;
+                    padding: 10px 50px;
+                }
+            }
+            
+        }
+        @media screen and (max-width:585px) {
+            width: 80%;
+        }
+        
+    }
+}
