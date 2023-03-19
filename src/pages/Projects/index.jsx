@@ -10,17 +10,20 @@ function Projects(){
         {
             id:1,
             img:dope,
-            name:"Hotel"
+            name:"Hotel",
+            href:"https://hotel-lpj0wdq8z-alikarzumanyan001.vercel.app/"
         },
         {
             id:2,
             img:simple,
-            name:"Simple House"
+            name:"Simple House",
+            href:"https://simple-house-bogh-is639jvey-alikarzumanyan001.vercel.app/"
         },
         {
             id:3,
             img:showcase,
-            name:"Showcase"
+            name:"Showcase",
+            href:"https://interior-design-zeta.vercel.app/"
         },
     ])
 

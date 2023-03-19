@@ -9,7 +9,7 @@ function Projectsimg(props){
             </div>
             <div className='name'>
                 <p className='web-name'>{item.name}</p>
-                <button className='btn-website'>click me</button>
+                <a className='btn-website' target={'_blank'} href={item.href}>click me</a>
             </div>
         </div>
     )
