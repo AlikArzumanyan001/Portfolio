@@ -23,7 +23,7 @@ function Header(){
                     </div>
                     
                     <div className='navlink-container'>
-                        <i className='icon-bars' onClick={(e)=>{
+                        <i className='icon-bars' onClick={()=>{
                             setx(!x)
                         }}></i>
                         <div className='navlink' style={x ? {display:"block"} : {display:"none"}}>
