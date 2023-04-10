@@ -1,4 +1,8 @@
 import './style.scss';
+import linkedin from '../../assets/img/linkedin-dark.svg';
+import github from '../../assets/img/github-dark.svg';
+import instagram from '../../assets/img/instagram-11.png';
+import facebook from '../../assets/img/facebookblack.png';
 
 function Home(){
     return(
@@ -6,16 +10,16 @@ function Home(){
            <section className='section-container' id="home">
                 <div className='socials'>
                     <div>
-                        <a href="https://www.linkedin.com/in/alik-arzumanyan-812197247/"><i className='icon-linkedin'/></a>
+                        <a href="https://www.linkedin.com/in/alik-arzumanyan-812197247/"><img src={linkedin} className='linkedin'/></a>
                     </div>
                     <div style={{marginTop:"30px"}}>
-                        <a href="https://github.com/AlikArzumanyan001"><i className='icon-github'/></a>
+                        <a href="https://github.com/AlikArzumanyan001"><img src={github} className='github'/></a>
                     </div>
                     <div style={{marginTop:"30px"}}>
-                        <a href="https://www.instagram.com/al.arzumanyan01/"><i className='icon-instagram'/></a>
+                        <a href="https://www.instagram.com/al.arzumanyan01/"><img src={instagram} className='instagram'/></a>
                     </div>
                     <div style={{marginTop:"30px"}}>
-                        <a href="https://www.facebook.com/profile.php?id=100007486717291"><i className='icon-facebook-square'/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100007486717291"><img src={facebook} className='facebook-square'/></a>
                     </div>
                 </div>
                 <div className='home-hero'>

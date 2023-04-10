@@ -12,21 +12,21 @@
         text-align: center;
         background-color: #fff;
         position: absolute;
-        .icon-linkedin{
-            color: #000;
-            font-size: 27px;
+        .linkedin{
+            width: 30px;
+            height: 30px;
         }
-        .icon-github{
-            color: #000;
-            font-size: 27px;
+        .github{
+            width: 30px;
+            height: 30px;
         }
-        .icon-instagram{
-            color: #000;
-            font-size: 27px;
+        .instagram{
+            width: 25px;
+            height: 25px;
         }
-        .icon-facebook-square{
-            color: #000;
-            font-size: 27px;
+        .facebook-square{
+            width: 25px;
+            height: 25px;
         }
         @media screen and (max-width:991px) {
             display: none;

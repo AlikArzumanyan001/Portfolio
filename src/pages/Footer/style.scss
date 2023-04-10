@@ -5,25 +5,25 @@
         display: flex;
         justify-content: center;
         margin-bottom: 40px;
-        .icon-linkedin{
-            color: #fff;
-            padding: 20px;
-            font-size: 22px;
+        .linkedin{
+            width: 50px;
+            height: 50px;
+            padding: 10px;
         }
-        .icon-github{
-            color: #fff;
-            padding: 20px;
-            font-size: 22px;
+        .github{
+            width: 50px;
+            height: 50px;
+            padding: 10px;
         }
-        .icon-instagram{
-            color: #fff;
-            padding: 20px;
-            font-size: 22px;
+        .instagram{
+            width: 50px;
+            height: 50px;
+            padding: 12px;
         }
-        .icon-facebook-square{
-            color: #fff;
-            padding: 20px;
-            font-size: 22px;
+        .facebook-square{
+            margin-top: 3px;
+            width: 45px;
+            height: 45px;
         }
     }
     .info{
